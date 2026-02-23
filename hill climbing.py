@@ -39,9 +39,10 @@ def SimpleHillClimbing():
         if score<best_score:
             best=new_solution
             best_score=score
-#answer="Artificial Intelligence"
-#print(generate_random_solution(answer))
-#solution=generate_random_solution(answer)
-#print(evaluate(solution,answer))
+
+answer="Artificial Intelligence"
+print(generate_random_solution(answer))
+solution=generate_random_solution(answer)
+print(evaluate(solution,answer))
 SimpleHillClimbing()
 
